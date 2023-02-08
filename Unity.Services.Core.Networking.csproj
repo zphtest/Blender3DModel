@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{48117BF7-20AA-E802-D30F-4B3E97529A5E}</ProjectGuid>
+    <ProjectGuid>{A54D9CB3-5A3F-A80C-933C-A0C3D13C267D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Services.Core.Networking</AssemblyName>
@@ -736,11 +736,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Services.Core.csproj">
-      <Project>{BB69826B-A828-8D51-DAAA-753492F16FB4}</Project>
+      <Project>{1EA6DE0F-56CF-8042-321B-CDB5FFF4D38C}</Project>
       <Name>Unity.Services.Core</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Internal.csproj">
-      <Project>{757C0F77-E4D1-0D8B-0434-1050C02FA715}</Project>
+      <Project>{96F2BBFC-50AC-8CF9-C56C-2DA4055DD67D}</Project>
       <Name>Unity.Services.Core.Internal</Name>
     </ProjectReference>
   </ItemGroup>

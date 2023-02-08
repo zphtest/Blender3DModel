@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{904FA9AB-990D-53BE-42EF-BC9657BD250B}</ProjectGuid>
+    <ProjectGuid>{F45095EE-49C7-1250-85C0-E271F9841A6C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.VSCode.Editor</AssemblyName>
@@ -759,11 +759,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{75F70236-92B8-E4A4-CAA3-9C1A1D169E6F}</Project>
+      <Project>{20B3FE42-5456-16A4-A857-E0DB67F5A72D}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{5BC21071-AF87-1A99-8EB5-191B8A4DB2A6}</Project>
+      <Project>{F72C2E3F-441F-EEC9-81F1-F995E599994C}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
