@@ -62,7 +62,7 @@ namespace UnityChan
 			Transform[] transforms = GetComponentsInChildren<Transform>();
 			foreach (var item in transforms)
 			{
-				if (item.name.StartsWith("PJ_") || item.name.StartsWith("Q_"))
+				if (item.name.StartsWith("Bip") || item.name.StartsWith("Tf_"))
 				{
 					if (item.childCount > 0)
 					{
