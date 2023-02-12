@@ -66,7 +66,9 @@ namespace UnityChan
 				{
 					if (item.childCount > 0)
 					{
-						item.gameObject.AddComponent<SpringBone>();
+						var com = item.gameObject.GetComponent<SpringBone>();
+						if (com == null)
+							item.gameObject.AddComponent<SpringBone>();
 						item.gameObject.GetComponent<SpringBone>().child = item.GetChild(0);
 						item.gameObject.GetComponent<SpringBone>().boneAxis = new Vector3(0, 1, 0);
 					}
